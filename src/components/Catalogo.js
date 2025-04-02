@@ -68,19 +68,19 @@ function Catalogo() {
       id: 1,
       title: 'Escritorio Moderno',
       description: 'Un diseño moderno ideal para oficinas.',
-      image: '/assets/images/fondo.jpg',
+      image: '/assets/images/escritoriomoderno.jpg',
     },
     {
       id: 2,
       title: 'Silla de Madera',
       description: 'Elegancia y confort en un solo lugar.',
-      image: '/assets/images/fondo.jpg',
+      image: '/assets/images/silla.jpg',
     },
     {
       id: 3,
       title: 'Mesa de Centro',
       description: 'Perfecta para reuniones y salas de estar.',
-      image: '/assets/images/fondo.jpg',
+      image: '/assets/images/mesacentro.jpg',
     },
   ];
 
