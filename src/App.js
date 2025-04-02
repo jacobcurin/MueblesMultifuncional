@@ -8,7 +8,7 @@ import Portada from './components/Portada';
 import Catalogo from './components/Catalogo';
 import Footer from './components/Footer';
 import Login from './components/Login';
-import AcercaDe from './components/AcercaDeTEMP';
+import AcercaDe from './components/AcercaDe';
 import Contacto from './components/Contacto';
 import Coleccion from './components/Coleccion';
 
