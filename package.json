@@ -1,0 +1,46 @@
+{
+  "name": "muebles",
+  "version": "1.0.0",
+  "description": "Proyecto de vitrina web para muebles, utilizando Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "webpack serve --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "muebles",
+    "vitrina",
+    "express",
+    "web"
+  ],
+  "author": "Jacob Curin",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "antd": "^5.23.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "html-webpack-plugin": "^5.6.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.1",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "nodemon": "^3.1.9",
+    "style-loader": "^4.0.0"
+  }
+}
