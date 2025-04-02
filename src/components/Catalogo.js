@@ -80,7 +80,7 @@ function Catalogo() {
       id: 3,
       title: 'Mesa de Centro',
       description: 'Perfecta para reuniones y salas de estar.',
-      image: '/assets/images/fondo.jpg',
+      image: 'public/assets/images/fondo.jpg',
     },
   ];
 
