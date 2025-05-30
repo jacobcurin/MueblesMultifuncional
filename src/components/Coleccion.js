@@ -1,7 +1,7 @@
 import React from 'react';
 
 const muebles = [
-  { id: 1, nombre: 'Sofá Moderno', imagen: '/assets/images/fondo.jpg', descripcion: 'Diseño vanguardista y materiales premium.' },
+  { id: 1, nombre: 'Sofá Moderno', imagen: '/assets/images/escritoriomoderno.jpg', descripcion: 'Diseño vanguardista y materiales premium.' },
   { id: 2, nombre: 'Mesa Minimalista', imagen: '/assets/images/fondo.jpg', descripcion: 'Estilo elegante con madera sostenible.' },
   { id: 3, nombre: 'Silla Ergonómica', imagen: '/assets/images/fondo.jpg', descripcion: 'Ideal para la oficina con ajuste lumbar.' },
   { id: 4, nombre: 'Estantería de Roble', imagen: '/assets/images/fondo.jpg', descripcion: 'Madera maciza con acabado mate.' },
