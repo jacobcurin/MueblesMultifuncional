@@ -66,21 +66,21 @@ function Catalogo() {
   const muebles = [
     {
       id: 1,
-      title: 'Escritorio Moderno',
-      description: 'Un diseño moderno ideal para oficinas.',
-      image: '/assets/images/escritoriomoderno.jpg',
+      title: 'Cocina Elegancia Obsidiana',
+      description: 'Diseño premium en tonos oscuros con isla de cuarzo, perfecta para ambientes sofisticados.',
+      image: '/assets/images/cocina_4.jpg',
     },
     {
       id: 2,
-      title: 'Silla de Madera',
-      description: 'Elegancia y confort en un solo lugar.',
-      image: '/assets/images/silla.jpg',
+      title: 'Cocina Blanco Integral',
+      description: 'Diseño integral con electrodomésticos empotrados y acabados modernos.',
+      image: '/assets/images/cocina_3.jpg',
     },
     {
       id: 3,
-      title: 'Mesa de Centro',
-      description: 'Perfecta para reuniones y salas de estar.',
-      image: '/assets/images/mesacentro.jpg',
+      title: 'Escritorio Esquinero Nórdico',
+      description: 'Diseño en L de inspiración escandinava, ideal para home office o espacios juveniles.',
+      image: '/assets/images/escritorio_1.jpg',
     },
   ];
 

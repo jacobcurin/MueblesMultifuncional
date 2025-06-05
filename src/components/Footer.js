@@ -11,12 +11,12 @@ function Footer() {
       }}
     >
       <div style={{ marginBottom: '15px' }}>
-        <h3 style={{ marginBottom: '10px' }}>Muebles Multifuncional</h3>
+        <h3 style={{ marginBottom: '10px' }}>Muebles Multipropositos</h3>
         <p style={{ margin: 0 }}>© 2025 Todos los derechos reservados.</p>
       </div>
       <div style={{ marginBottom: '15px' }}>
-        <p style={{ margin: '5px 0' }}>Contacto: MueblesMultifuncional@gmail.com</p>
-        <p style={{ margin: '5px 0' }}>Teléfono: +569 1234 5678</p>
+        <p style={{ margin: '5px 0' }}>Email: cyp.construccion.inversiones@gmail.com</p>
+        <p style={{ margin: '5px 0' }}>Teléfono: +569 7747 9287</p>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
         <a

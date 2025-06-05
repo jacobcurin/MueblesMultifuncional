@@ -1,18 +1,18 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin'); // <-- nuevo import
+const CopyWebpackPlugin = require('copy-webpack-plugin'); 
 
 module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/', // <-- importante para rutas en producción
+    publicPath: '/', 
   },
   mode: 'development',
   devServer: {
     static: './dist',
-    historyApiFallback: true, // <-- por si usás react-router
+    historyApiFallback: true, 
   },
   module: {
     rules: [
@@ -43,8 +43,8 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, 'public/assets'), // Copia todos los archivos de public/assets
-          to: 'assets', // A dist/assets
+          from: path.resolve(__dirname, 'public/assets'), 
+          to: 'assets', 
         },
       ],
     }),

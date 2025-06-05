@@ -70,7 +70,7 @@ function Navbar() {
 
   return (
     <nav style={styles.navbar}>
-      <div style={styles.logo}>Muebles Multifuncional</div>
+      <div style={styles.logo}>Muebles Multipropositos</div>
 
       <div
         className="menu-icon"
@@ -85,8 +85,11 @@ function Navbar() {
           <Link to="/" style={styles.navLink}>Inicio</Link>
         </li>
         <li>
-          <Link to="/acerca-de" style={styles.navLink}>Acerca de</Link>
+          <Link to="/coleccion" style={styles.navLink}>Colección</Link>
         </li>
+        {/* <li>
+          <Link to="/acerca-de" style={styles.navLink}>Acerca de</Link>
+        </li> */}
         <li>
           <Link to="/contacto" style={styles.navLink}>Contacto</Link>
         </li>
@@ -95,7 +98,8 @@ function Navbar() {
       {menuOpen && (
         <div style={styles.mobileMenu}>
           <Link to="/" style={styles.mobileNavLink} onClick={() => setMenuOpen(false)}>Inicio</Link>
-          <Link to="/acerca-de" style={styles.mobileNavLink} onClick={() => setMenuOpen(false)}>Acerca de</Link>
+          <Link to="/coleccion" style={styles.mobileNavLink} onClick={() => setMenuOpen(false)}>Colección</Link>
+          {/* <Link to="/acerca-de" style={styles.mobileNavLink} onClick={() => setMenuOpen(false)}>Acerca de</Link> */}
           <Link to="/contacto" style={styles.mobileNavLink} onClick={() => setMenuOpen(false)}>Contacto</Link>
         </div>
       )}

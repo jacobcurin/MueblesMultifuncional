@@ -16,7 +16,7 @@ function Portada() {
         margin: '0',
       }}
     >
-      <h1 style={{ fontSize: '36px', marginBottom: '20px' }}>Bienvenido a Muebles Multifuncional</h1>
+      <h1 style={{ fontSize: '36px', marginBottom: '20px' }}>Bienvenido a Muebles Multipropositos</h1>
       <p style={{ fontSize: '18px', marginBottom: '30px' }}>Los mejores muebles para tu hogar y oficina.</p>
       <button
         style={{
